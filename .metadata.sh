@@ -3,21 +3,21 @@
 # Powered by Application Builder: https://github.com/golift/application-builder
 
 # Must match the repo name to make things easy. Otherwise, fix some other paths.
-BINARY="hello-world"
+BINARY="telly-test"
 # github username
-GHUSER="golift"
+GHUSER="chazlarson"
 # Github repo containing homebrew formula repo.
-HBREPO="golift/homebrew-mugs"
-MAINT="David Newhall II <david at sleepers dot pro>"
-VENDOR="Go Lift"
-DESC="Example Service for GoLift Application Builder"
+HBREPO="chazlarson/homebrew-formulas"
+MAINT="Chaz Larson <chaz at chazlarson dot com>"
+VENDOR="Artisanal Typing"
+DESC="Test repo created with GoLift Application Builder"
 GOLANGCI_LINT_ARGS="--enable-all -D gochecknoglobals"
 # Example must exist at examples/$CONFIG_FILE.example
-CONFIG_FILE="helloworld.conf"
+CONFIG_FILE="tellytest.conf"
 LICENSE="MIT"
 # FORMULA is either 'service' or 'tool'. Services run as a daemon, tools do not.
 # This affects the homebrew formula (launchd) and linux packages (systemd).
-FORMULA="service"
+FORMULA="tool"
 
 export BINARY GHUSER HBREPO MAINT VENDOR DESC GOLANGCI_LINT_ARGS CONFIG_FILE LICENSE FORMULA
 
